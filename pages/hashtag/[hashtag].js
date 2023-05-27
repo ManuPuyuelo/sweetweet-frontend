@@ -1,6 +1,6 @@
-import { useRouter } from 'next/router';
-import Head from 'next/head';
-import Hashtag from '../../components/Hashtag';
+import { useRouter } from "next/router";
+import Head from "next/head";
+import Hashtag from "../../components/Hashtag";
 
 function HashtagPage() {
   const router = useRouter();
@@ -9,7 +9,7 @@ function HashtagPage() {
   return (
     <>
       <Head>
-        <title>#{hashtag} / Hackatweet</title>
+        <title>#{hashtag} / Sweetweet</title>
       </Head>
       <Hashtag />
     </>

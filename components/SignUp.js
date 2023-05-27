@@ -35,7 +35,7 @@ function SignUp() {
   return (
     <div className={styles.container}>
       <Image src="/logo.png" alt="Logo" width={50} height={50} />
-      <h3 className={styles.title}>Create your Hackatweet account</h3>
+      <h3 className={styles.title}>Create your Sweetweet account</h3>
       <input
         type="text"
         className={styles.input}
